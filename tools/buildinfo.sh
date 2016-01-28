@@ -57,6 +57,6 @@ if [ "$TARGET_UNIFIED_DEVICE" == "" ] ; then
 fi
 echo "ro.build.characteristics=$TARGET_AAPT_CHARACTERISTICS"
 
-echo "ro.metaos.device=$METAOS_DEVICE"
+echo "ro.meta.device=$META_DEVICE"
 
 echo "# end build properties"
